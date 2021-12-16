@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta viewport='width=device-width'>
+<title>texto</title>
+</head>
+<body>
+
+<script>
+function analise() {
+  document.getElementById("texto").setAttribute("disabled","true");
+  document.getElementById('analisar').style.display="none";
+  document.getElementById('editar').style.display="block";
+  document.getElementById('saida').innerHTML="<p>asdfa a adfa faskl fasklfjaj</p>";
+  
+  return;
+}
+
+function editar() {
+  document.getElementById("texto").removeAttribute("disabled");
+  document.getElementById('editar').style.display="none";
+  document.getElementById('analisar').style.display="block";
+  document.getElementById('saida').innerHTML="";
+  
+  return;
+}
+</script>
+
+<textarea id="texto" cols="150" rows="3" spellcheck="false"></textarea>
+
+<input id="analisar" type="button" value="analise" onclick="analise()" style="display:block">
+<input id="editar"   type="button" value="editar"  onclick="editar()" style="display:none">
+
+<div id="saida"></div>
+
+</body>
+</html>
+
