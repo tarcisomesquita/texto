@@ -1,0 +1,5 @@
+Elementos suportados
+Apenas parágrafos. Não suporta títulos, tabelas, listas e imagens.
+
+Pontuação suportada
+Apenas ponto final. Não suporta vírgula, ponto e vírgula, dois pontos, ponto de interrogação, ponto de exclamação, reticências, aspas, parênteses, parênteses angulares, colchetes, chaves, travessão, hífen e barra.
